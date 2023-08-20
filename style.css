@@ -1,11 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family:  'Roboto', sans-serif;
     font-size: 16px;
     color: #2E2F42;
     line-height: 24px;
     letter-spacing: 2%;
-    padding: 0;
-    margin: 0;
     max-width: 100%;
 }
 
@@ -16,32 +20,32 @@ h2{
 
 .main-header{
     overflow: auto;
-    margin: 0;
     padding: 5px;
     border-bottom: 2px solid #E7E9FC;
 }
 
-.header-logo {
+.nav-logo {
     position: absolute;
     margin-top: 18px;
     margin-left: 100px;
 }
 
-.header-ul{
+.nav-list{
     padding: 0;
     margin: 0 0 0 280px;
     list-style-type: none;
-}
-
-.header-ul li {
-    float: left;
-}
-
-.header-nav>.header-ul a{
     font-weight: bolder;
 }
 
-.header-ul a{
+.nav-list li {
+    float: left;
+}
+
+.nav>.nav-list a{
+    font-weight: bolder;
+}
+
+.nav-list a{
     display: block;
     padding: 18px 20px;
     text-decoration: none;
@@ -49,22 +53,39 @@ h2{
     color: #2E2F42;
 }
 
-.header-address{
-    float: right;
+.nav-list a:hover,
+.nav-list a:focus {
+    color: #404BBF;
+    border-bottom: 2px solid #404BBF;
+    padding: auto;
+}
+
+.address {
     overflow: hidden;
     margin-right: 90px;
     text-align: center;
     font-style: normal;
 }
 
-.header-ul a:hover, .header-ul a:focus{
+.address li {
+    float: right;
+    list-style-type: none;
+}
+
+.address-list a {
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #2E2F42;
+}
+
+
+.address-list a:hover, 
+.address-list a:focus{
     color: #404BBF;
     border-bottom: 2px solid #404BBF;
     padding: auto;
-}
-
-.header-ul a>.header-tel-num{
-    text-align: center;
 }
 
 .hero-section{
