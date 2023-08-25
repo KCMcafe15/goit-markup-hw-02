@@ -300,7 +300,7 @@ a{
     padding: 10px;
 }
 
-.active, .filter-button:hover, 
+.active, .ffilter-button:hover, 
 .filter-button:focus{
     background-color: var(--ocean);
     color: var(--white);
@@ -333,7 +333,7 @@ a{
     color: var(--cloud);
     font-family: inherit;
     font-size: 16px;
-    line-height: 1.5em;  /* 150% */
+    line-height: 1.5em; 
     letter-spacing: 0.32px;
 }
 
